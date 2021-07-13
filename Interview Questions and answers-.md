@@ -39,55 +39,6 @@
 |        Supervised learning has a feedback mechanism.         |       Unsupervised learning has no feedback mechanism.       |
 | The most commonly used supervised learning algorithms are decision trees, logistic regression, and support vector machine. | The most commonly used unsupervised learning algorithms are k-means clustering, hierarchical clustering, and apriori algorithm. |
 
-
-
-### Tomorrow we will see some algorithm specific questions on supervised learning.
-
-### Please post your questions in the comment section, I will answer it, tomorrow.
-
-
-### There are lots of basic and advance questions are there which will be coming up, stay tuned.
-
-
-
-# Notes of today's Project.
-
-## Breast Cancer type prediction.
-
-### Problem Statement
-
-- We have the dataset of the patients with breast cancer, With it's analysis we can predict and diagnose patients, and generate the report which will show which type of breast cancer they are suffering from and also recommend the immediate actions to be taken on the basis of their cancer type.
-
-
-### Data set description
-
-- Download dataset from https://www.kaggle.com/uciml/breast-cancer-wisconsin-data
-
-#### Attribute Information:
-
-- ID number
-- Diagnosis (M = malignant, B = benign)
-
-- Ten real-valued features are computed for each cell nucleus:
-  - Radius (mean of distances from centre to points on the perimeter)
-  - Texture (standard deviation of Gray-scale values)
-  - Perimeter
-  - Area
-  - Smoothness (local variation in radius lengths)
-  - Compactness (perimeter^2 / area - 1.0)
-  - Concavity (severity of concave portions of the contour)
-  - Concave points (number of concave portions of the contour)
-  - Symmetry
-  - Fractal dimension ("coastline approximation" - 1)
-
-- The mean, standard error and "worst" or largest (mean of the three largest values) of these features were computed for each image,resulting in 30 features. For instance, field 3 is Mean Radius, field 13 is Radius SE, field 23 is Worst Radius.
-
-- All feature values are recorded with four significant digits.
-
-- Missing attribute values: none
-
-- Class distribution: 357 benign, 212 malignant
-
 ## Which one is your favourite ML algorithm?
 
 ### or 
@@ -169,70 +120,6 @@
   - The distance between two points measured along axes at right angles. In a plane with p1 at (x1, y1) and p2 at (x2, y2), it is |x1 - x2| + |y1 - y2|. 
 
    
-
-# Notes of today's Project.
-
-### Problem Statement
-
-- To Track COVID-19 vaccination in the World, answer instantly to your questions:
-- Which country is using what vaccine?
-- In which country the vaccination programme is more advanced?
-- Where are vaccinated more people per day? But in terms of percent from entire population ?
-
-### Data set description
-
-- Data is collected daily from Our World in Data GitHub repository for covid-19, merged and uploaded.
-
-#### Attribute Information:
-
-- Country- this is the country for which the vaccination information is provided.
-
-- Country ISO Code - ISO code for the country.
-
-- Date - date for the data entry; for some of the dates we have only the daily vaccinations, for others, only the (cumulative) total.
-
-- Total number of vaccinations - this is the absolute number of total immunisations in the country.
-
-- Total number of people vaccinated - a person, depending on the immunisation scheme, will receive one or more (typically 2) vaccines; at a certain moment, the number of vaccination might be larger than the number of people.
-
-- Total number of people fully vaccinated - this is the number of people that received the entire set of immunisation according to the immunisation scheme (typically 2); at a certain moment in time, there might be a certain number of people that received one vaccine and another number (smaller) of people that received all vaccines in the scheme.
-
-- Daily vaccinations (raw) - for a certain data entry, the number of vaccination for that date/country.
-
-- Daily vaccinations - for a certain data entry, the number of vaccination for that date/country.
-
-- Total vaccinations per hundred - ratio (in percent) between vaccination number and total population up to the date in the country.
-
-- Total number of people vaccinated per hundred - ratio (in percent) between population immunised and total population up to the date in the country.
-
-- Total number of people fully vaccinated per hundred - ratio (in percent) between population fully immunised and total population up to the date in the country.
-
-- Number of vaccinations per day - number of daily vaccination for that day and country.
-
-- Daily vaccinations per million - ratio (in ppm) between vaccination number and total population for the current date in the country.
-
-- Vaccines used in the country - total number of vaccines used in the country (up to date).
-
-- Source name - source of the information (national authority, international organisation, local organisation etc.).
-
-- Source website - website of the source of information.
-
-
-# Summery 
-
-## Covaxin is used globally.
-
-## In India Total Vaccination and People Vaccination rate is very high.
-
-## India Secured 4th rank in Globally Total Vaccination Country list .
-
-## India Secured 3rd rank in Globally Daily Vaccination Country list.
-
-
-
-
-
-
 
 ## What is Decision Tree algorithm?
 
@@ -339,31 +226,6 @@ When we remove sub-nodes of a Decision node, this process is called pruning or t
 **4. Not suitable for large datasets:** If the data size is large, then one single Tree may grow complex and lead to overfitting. So in this case, we should use Random Forest instead, an ensemble technique of a single Decision Tree.
 
 
-
-# Notes of today's Project.
-
-## House Price Prediction Using Multiple Linear Regression
-
-### Problem Statement
-
-- Consider a real estate company that has a dataset containing the prices of properties in the Delhi region. It wishes to use the data to optimise the sale prices of the properties based on important factors such as area, bedrooms, parking, etc.
-
-- To identify the variables affecting house prices, e.g. area, number of rooms, bathrooms, etc.
-
-- To create a linear model that quantitatively relates house prices with variables such as number of rooms, area, number of bathrooms, etc.
-
-- To know the accuracy of the model, i.e. how well these variables can predict house prices.
-
-### Data set description
-
-- Data is collected from https://www.kaggle.com/ashydv/housing-dataset .
-
-
-
-
-
-
-
 ## Discuss 'Naive' in a Naive Bayes algorithm?
 
 - The Naive Bayes Algorithm model is based on the Bayes Theorem. It describes the probability of an event. It is based on prior knowledge of conditions which might be related to that specific event.
@@ -446,10 +308,6 @@ There are several types of Naive Bayes classifiers.  Which one you use will depe
 - NumPy
 - SKLearn
 - Seaborn
-
-
-
-
 
 
 
@@ -575,13 +433,6 @@ There are several types of Naive Bayes classifiers.  Which one you use will depe
 - SVMs do not directly provide probability estimates, these are calculated using an expensive five-fold cross-validation
 
 
-
-
-
-
-
-
-
 ## What is bias?
 
 - Bias is an error introduced in your model due to oversimplification of the machine learning algorithm. It can lead to underfitting. When you train your model at that time model makes simplified assumptions to make the target function easier to understand.
@@ -663,15 +514,6 @@ Precision(Positive predicted value) = TP/(TP+FP)
 F-Score(Harmonic mean of precision and recall) = (1+b)(PREC.REC)/(b²PREC+REC) where b is commonly 0.5, 1, 2.
 
  
-
-
-
-
-
-
-
-
-
 ## What is Ensemble Learning. Give an important example of Ensemble Learning?
 
 - Ensemble Learning is a process of accumulating multiple models to form a better prediction model. In Ensemble Learning the performance of the individual model contributes to the overall development in every step. There are two common techniques in this – Bagging and Boosting.
@@ -719,13 +561,6 @@ There are various Clustering Techniques –
 - Suggestions for books on Amazon, or movies on Netflix, are real-world examples of the operation of industry-strength recommender systems. 
 - The design of such recommendation engines depends on the domain and the particular characteristics of the data available. For example, movie watchers on Netflix frequently provide ratings on a scale of 1 (disliked) to 5 (liked). 
 - Such a data source records the quality of interactions between users and items. Additionally, the system may have access to user-specific and item-specific profile attributes such as demographics and product descriptions, respectively. 
-
-
-
-
-
-
-
 
 
 ## What is time series data?
